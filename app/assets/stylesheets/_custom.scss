@@ -1,0 +1,106 @@
+
+
+
+// Colors
+//
+// Grayscale and brand colors for use across Bootstrap.
+
+$gray-dark:                 #373a3c !default;
+$gray:                      #55595c !default;
+$gray-light:                #818a91 !default;
+$gray-lighter:              #eceeef !default;
+$gray-lightest:             #f7f7f9 !default;
+
+$brand-primary:             #7baeca !default;
+$brand-success:             #7c7d4d !default;
+$brand-info:                #3e5866 !default;
+$brand-warning:             #d1c9a0 !default;
+$brand-danger:              #d9534f !default;
+
+
+$shadow: 0 1px 2px rgba(0, 0, 0, 0.175);
+
+
+// Spacing
+//
+// Control the default styling of most Bootstrap elements by modifying these
+// variables. Mostly focused on spacing.
+
+$spacer: 1rem !default;
+$spacer-x: $spacer !default;
+$spacer-y: $spacer !default;
+$spacers: (
+        0: (
+                x: 0,
+                y: 0
+        ),
+        1: (
+                x: $spacer-x,
+                y: $spacer-y
+        ),
+        2: (
+                x: ($spacer-x * 1.5),
+                y: ($spacer-y * 1.5)
+        ),
+        3: (
+                x: ($spacer-x * 3),
+                y: ($spacer-y * 3)
+        )
+) !default;
+$border-width: 1px !default;
+
+
+
+
+
+// Links
+//
+// Style anchor elements.
+
+$link-color:                 $brand-primary !default;
+$link-decoration:            none !default;
+$link-hover-color:           darken($link-color, 20%) !default;
+$link-hover-decoration:      none !default;
+
+// Options
+//
+// Quickly modify global styling by enabling or disabling optional features.
+
+$enable-flex:               false !default;
+$enable-rounded:            false !default;
+$enable-shadows:            true !default;
+$enable-gradients:          false !default;
+$enable-transitions:        false !default;
+$enable-hover-media-query:  false !default;
+$enable-grid-classes:       true !default;
+
+
+// Typography
+//
+// Font, line-height, and color for body text, headings, and more.
+
+//***********
+// Pixel value used to responsively scale all typography. Applied to the `<html>` element.
+$font-size-root:             18px !default;
+//***********
+
+$font-family-sans-serif: Georgia, "Helvetica Neue", Helvetica, Arial, sans-serif !default;
+$font-family-serif: Georgia, "Times New Roman", Times, serif !default;
+$font-family-monospace: Menlo, Monaco, Consolas, "Courier New", monospace !default;
+$font-family-base: $font-family-sans-serif !default;
+
+// Navbar
+
+$navbar-border-radius: 0rem !default;
+$navbar-padding-horizontal: $spacer !default;
+$navbar-padding-vertical: ($spacer / 2) !default;
+
+$navbar-dark-color:                 rgba(255,255,255,.5) !default;
+$navbar-dark-hover-color:           rgba(255,255,255,.75) !default;
+$navbar-dark-active-color:          rgba(255,255,255,1) !default;
+$navbar-dark-disabled-color:        rgba(255,255,255,.25) !default;
+
+$navbar-light-color: rgba(0, 0, 0, .5) !default;
+$navbar-light-hover-color: rgba(0, 0, 0, .6) !default;
+$navbar-light-active-color: rgba(0, 0, 0, .8) !default;
+$navbar-light-disabled-color: rgba(0, 0, 0, .15) !default;
