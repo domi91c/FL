@@ -139,6 +139,7 @@
     <orderEntry type="library" scope="PROVIDED" name="selectize-rails (v0.12.4, RVM: ruby-2.4.0 [folklit]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="selenium-webdriver (v3.0.5, RVM: ruby-2.4.0 [folklit]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="shellany (v0.0.1, RVM: ruby-2.4.0 [folklit]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="simple_form (v3.4.0, RVM: ruby-2.4.0 [folklit]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="slop (v3.6.0, RVM: ruby-2.4.0 [folklit]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="spring (v2.0.0, RVM: ruby-2.4.0 [folklit]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="spring-commands-rspec (v1.0.4, RVM: ruby-2.4.0 [folklit]) [gem]" level="application" />

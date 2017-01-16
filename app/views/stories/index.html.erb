@@ -1,0 +1,23 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Listing Stories</h1>
+
+<table>
+
+  <tbody>
+  <% @stories.each do |story| %>
+      <tr>
+        <td><%= story.title %></td>
+        <td><a><%= story.user.username %></a></td>
+        <td><%= link_to 'Show', story %></td>
+        <td><%= link_to 'Edit', edit_story_path(story) %></td>
+        <td><%= link_to 'Destroy', story, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+  <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Story', new_story_path, class: 'btn btn-primary'%>
+

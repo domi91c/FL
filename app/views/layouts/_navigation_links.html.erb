@@ -1,4 +1,8 @@
 <%# add navigation links to this file %>
-<%= link_to 'Write', page_path('about'), class: 'nav-item nav-link' %>
-<%= link_to 'Read', page_path('about'), class: 'nav-item nav-link active' %>
-<%= link_to 'People', page_path('about'), class: 'nav-item nav-link' %>
+
+<li class="nav-item"><%= link_to 'Read', stories_path, class: 'nav-link', style: '' %></li>
+<li class="nav-item"><%= link_to 'Write', page_path('about'), class: 'nav-link', style: '' %></li>
+<li class="nav-item"><%= link_to 'People', page_path('about'), class: 'nav-link', style: '' %></li>
+
+
+

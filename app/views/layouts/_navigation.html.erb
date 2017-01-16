@@ -1,43 +1,48 @@
-<nav class="navbar navbar-toggleable-md navbar-light bg-faded" id="shadow">
+<style type="text/css">
+  .navbar .navbar-nav {
+    display: inline-block;
+  }
+
+  .navbar-nav > li > a {
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
+  }
+
+  .navbar {
+    min-height: 32px !important;
+    text-align: center;
+    padding-bottom: 8px;
+    margin-bottom: 50px;
+    -webkit-box-shadow: 0px 1px 4px #799db0;
+    -moz-box-shadow: 0px 1px 4px #799db0;
+    /*box-shadow: 0px 1px 1px #bdbbb6;*/
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.175);
+    background-color: rgba(255, 255, 255, 0.98);
+  }
+
+  .user_dropdown {
+    color: #7baeca;
+    position: relative;
+    bottom: -.8em;
+    left: -.8em;
+    font-size: .9em;
+  }
+
+</style>
+
+<nav class="navbar navbar-toggleable-sm navbar-light text-center">
   <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation" style="border: none; padding-top: 8px">
     <span class="navbar-toggler-icon"></span>
   </button>
-  <%= link_to image_tag('folklit-initial-curved-feather.png', :alt => 'logo', class: 'navbar-brand navbar-brand-img', style: 'height: 45px;margin: 0'), '/' %>
-  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-    <div class="navbar-nav mr-auto">
-      <%= render 'layouts/navigation_links' %>
+  <div class="navbar-brand navbar-brand-img"><%= link_to image_tag('folklit-initial-curved-feather.png', :alt => 'logo', class: '', style: 'height: 35px; '), '/' %></div>
+  <div class="collapse navbar-collapse " id="navbarNavAltMarkup" style="">
+    <div class="container text-center">
+      <ul class="nav navbar-nav " style="display:inline-flex; ">
+        <%= render 'layouts/navigation_links' %>
+      </ul>
     </div>
+    <ul class="nav navbar-nav pull-xs-left">
+      <li class="nav-item"><%= link_to '@domi91c', page_path('about'), class: 'nav-link', style: '' %></li>
+    </ul>
   </div>
 </nav>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
