@@ -1,4 +1,8 @@
 <style type="text/css">
+
+  .navbar .navbar-brand {
+  }
+
   .navbar .navbar-nav {
     display: inline-block;
   }
@@ -31,13 +35,13 @@
 </style>
 
 <nav class="navbar navbar-toggleable-sm navbar-light text-center">
-  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation" style="border: none; padding-top: 8px">
+  <button class="navbar-toggler navbar-toggler-left" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation" style="border: none; padding-top: 8px">
     <span class="navbar-toggler-icon"></span>
   </button>
-  <div class="navbar-brand navbar-brand-img"><%= link_to image_tag('folklit-initial-curved-feather.png', :alt => 'logo', class: '', style: 'height: 35px; '), '/' %></div>
+    <div class="navbar-brand navbar-brand-img"><%= link_to image_tag('folklit-initial-curved-feather.png', :alt => 'logo'), '/', style: 'height: 45px' %></div>
   <div class="collapse navbar-collapse " id="navbarNavAltMarkup" style="">
     <div class="container text-center">
-      <ul class="nav navbar-nav " style="display:inline-flex; ">
+      <ul class="nav navbar-nav" style="display:inline-flex; ">
         <%= render 'layouts/navigation_links' %>
       </ul>
     </div>

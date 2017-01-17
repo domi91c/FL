@@ -1,18 +1,18 @@
 <p id="notice"><%= notice %></p>
 
-<h1>Listing Stories</h1>
-
-<table>
-
+<table class="table">
   <tbody>
-  <% @stories.each do |story| %>
-      <tr>
-        <td><%= story.title %></td>
-        <td><a><%= story.user.username %></a></td>
-        <td><%= link_to 'Show', story %></td>
-        <td><%= link_to 'Edit', edit_story_path(story) %></td>
-        <td><%= link_to 'Destroy', story, method: :delete, data: { confirm: 'Are you sure?' } %></td>
-      </tr>
+  <% @stories.each do |s| %>
+      <div class="">
+        <div class="card-block">
+          <h4 class="card-title"><%= s.title %></h4>
+          <h6 class="card-subtitle mb-2 text-muted"><%= s.body.truncate(100) %></h6>
+          <div class="story-links">
+            <%= link_to "Edit", edit_story_path(s) %>
+            |
+            <%= link_to "Preview", edit_story_path(s) %></div>
+        </div>
+      </div>
   <% end %>
   </tbody>
 </table>
