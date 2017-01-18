@@ -33,26 +33,23 @@
 
   <div class="collapse navbar-collapse" id="navbarToggler">
     <ul class="navbar-nav mx-auto mt-2 mt-md-0 ">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Link</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link " href="#">Disabled</a>
-      </li>
+      <%= render 'layouts/navigation_links' %>
     </ul>
 
 
-  <div class="navbar-nav pull-right" style="position: relative;">
-    <li class="nav-item" data-toggle="dropdown"><%= link_to '@domi91c', '/', class: 'nav-link nav-user-link', style: 'float: right' %></li>
-    <ul class="dropdown-menu text-center" role="menu" style="left: -60px">
-      <li><a href="#" class="dropdown-item">Profile</a></li>
-      <li><a href="#" class="dropdown-item">Log Out</a></li>
-      <li><a href="#" class="dropdown-item">Stories</a></li>
-      <li><a href="#" class="dropdown-item">Library</a></li>
+    <ul class="navbar-nav pull-right" style="position: relative;">
+      <% if user_signed_in? %>
+          <li class="nav-item" data-toggle="dropdown"><%= link_to '@domi91c', '/', class: 'nav-link nav-user-link', style: 'float: right' %></li>
+          <ul class="dropdown-menu text-center" role="menu" style="left: -60px">
+            <li><a href="#" class="dropdown-item">Profile</a></li>
+            <li><%= link_to 'Log Out', destroy_user_session_path, method: :delete, class: 'dropdown-item' %></li>
+            <li><a href="#" class="dropdown-item">Stories</a></li>
+            <li><a href="#" class="dropdown-item">Library</a></li>
+          </ul>
+      <% else %>
+          <li class="nav-item"><%= link_to 'Sign In', new_user_session_path, class: 'nav-link' %></li>
+      <% end %>
+
     </ul>
-  </div>
   </div>
 </nav>
