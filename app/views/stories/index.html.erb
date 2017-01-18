@@ -8,9 +8,9 @@
           <h4 class="card-title"><%= s.title %></h4>
           <h6 class="card-subtitle mb-2 text-muted"><%= s.body.truncate(100) %></h6>
           <div class="story-links">
-            <%= link_to "Edit", edit_story_path(s) %>
+            <%= link_to 'Edit', edit_story_path(s) %>
             |
-            <%= link_to "Preview", edit_story_path(s) %></div>
+            <%= link_to 'Preview', edit_story_path(s) %></div>
         </div>
       </div>
   <% end %>
