@@ -17,18 +17,22 @@
   .navbar-toggler-left {
     border: none;
   }
+
+  .nav-user-link {
+    color: #7baeca !important;
+  }
 </style>
 
 
 <nav class="navbar navbar-toggleable-sm navbar-light bg-faded text-center">
+  <%= link_to image_tag('folklit-initial-curved-feather.png', :size => 65, :class => 'navbar-brand mx-auto') %>
+
   <button class="navbar-toggler navbar-toggler-left" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
-  <%= link_to image_tag('folklit-initial-curved-feather.png', :size => 65, :class => 'navbar-brand') %>
-
 
   <div class="collapse navbar-collapse" id="navbarToggler">
-    <ul class="navbar-nav ml-auto mr-auto mt-2 mt-md-0 ">
+    <ul class="navbar-nav mx-auto mt-2 mt-md-0 ">
       <li class="nav-item active">
         <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
       </li>
@@ -36,15 +40,19 @@
         <a class="nav-link" href="#">Link</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link disabled" href="#">Disabled</a>
-      </li>
-
-    </ul>
-
-    <ul class="navbar-nav pull-right">
-      <li class="nav-item">
-        <%= link_to "@domi91c", '/', class: 'nav-link' %>
+        <a class="nav-link " href="#">Disabled</a>
       </li>
     </ul>
+
+
+  <div class="navbar-nav pull-right" style="position: relative;">
+    <li type="button" class="nav-item" data-toggle="dropdown"><%= link_to '@domi91c', '/', class: 'nav-link nav-user-link', style: 'float: right' %></li>
+    <ul class="dropdown-menu text-center" role="menu" style="left: -60px">
+      <li><a href="#" class="dropdown-item">Profile</a></li>
+      <li><a href="#" class="dropdown-item">Log Out</a></li>
+      <li><a href="#" class="dropdown-item">Stories</a></li>
+      <li><a href="#" class="dropdown-item">Library</a></li>
+    </ul>
+  </div>
   </div>
 </nav>
