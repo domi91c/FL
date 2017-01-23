@@ -1,0 +1,116 @@
+000.415  000.002: clipboard setup
+339.968  000.003: --- VIM STARTED ---
+000.422  000.007: window checked
+000.863  000.007: parsing arguments
+338.227  000.007: before starting main loop
+045.300  000.009  000.009: sourcing /Applications/MacVim.app/Contents/Resources/vim/runtime/indent.vim
+045.178  000.010  000.010: sourcing /Applications/MacVim.app/Contents/Resources/vim/runtime/ftplugin.vim
+045.240  000.010  000.010: sourcing /Applications/MacVim.app/Contents/Resources/vim/runtime/filetype.vim
+000.011  000.011: --- VIM STARTING ---
+337.943  000.011: editing files in windows
+045.115  000.012  000.012: sourcing /Applications/MacVim.app/Contents/Resources/vim/runtime/filetype.vim
+326.056  000.013: inits 3
+000.413  000.018: GUI prepared
+213.198  000.019  000.019: sourcing /Users/domi91c/.vim/bundle/syntastic/plugin/syntastic/cursor.vim
+213.331  000.020  000.020: sourcing /Users/domi91c/.vim/bundle/syntastic/plugin/syntastic/loclist.vim
+213.612  000.020  000.020: sourcing /Users/domi91c/.vim/bundle/syntastic/plugin/syntastic/signs.vim
+213.265  000.021  000.021: sourcing /Users/domi91c/.vim/bundle/syntastic/plugin/syntastic/highlighting.vim
+213.483  000.021  000.021: sourcing /Users/domi91c/.vim/bundle/syntastic/plugin/syntastic/notifiers.vim
+213.547  000.021  000.021: sourcing /Users/domi91c/.vim/bundle/syntastic/plugin/syntastic/registry.vim
+213.038  000.022  000.022: sourcing /Users/domi91c/.vim/bundle/syntastic/plugin/syntastic/balloons.vim
+213.419  000.022  000.022: sourcing /Users/domi91c/.vim/bundle/syntastic/plugin/syntastic/modemap.vim
+213.109  000.023  000.023: sourcing /Users/domi91c/.vim/bundle/syntastic/plugin/syntastic/checker.vim
+320.493  000.028  000.028: sourcing /Applications/MacVim.app/Contents/Resources/vim/runtime/plugin/manpager.vim
+334.654  000.032: clearing screen
+334.622  000.033: start termcap
+043.386  000.040  000.040: sourcing /Applications/MacVim.app/Contents/Resources/vim/runtime/indent.vim
+334.589  000.041: setting raw mode
+212.962  000.042  000.042: sourcing /Users/domi91c/.vim/bundle/syntastic/plugin/syntastic/autoloclist.vim
+043.284  000.046  000.046: sourcing /Applications/MacVim.app/Contents/Resources/vim/runtime/ftplugin.vim
+009.695  000.048: inits 2
+322.483  000.056  000.056: sourcing /Applications/MacVim.app/Contents/Resources/vim/runtime/plugin/spellfile.vim
+324.599  000.057  000.057: sourcing /Applications/MacVim.app/Contents/Resources/vim/runtime/pack/dist/opt/matchit/plugin/matchit.vim
+317.368  000.062  000.062: sourcing /Users/domi91c/.vim/bundle/ctrlp-funky/plugin/funky.vim
+200.638  000.077  000.077: sourcing /Users/domi91c/dotmatrix/vim/completion.vim
+322.361  000.084  000.084: sourcing /Applications/MacVim.app/Contents/Resources/vim/runtime/plugin/rrhelper.vim
+314.852  000.086  000.086: sourcing /Users/domi91c/.vim/bundle/vim-snippets/plugin/vimsnippets.vim
+000.115  000.104: Allocated generic buffers
+299.574  000.108  000.108: sourcing /Users/domi91c/.vim/bundle/syntastic/plugin/syntastic/balloons.vim
+299.413  000.139  000.139: sourcing /Users/domi91c/.vim/bundle/syntastic/plugin/syntastic/autoloclist.vim
+319.205  000.146  000.146: sourcing /Applications/MacVim.app/Contents/Resources/vim/runtime/plugin/getscriptPlugin.vim
+300.441  000.161  000.161: sourcing /Users/domi91c/.vim/bundle/syntastic/plugin/syntastic/highlighting.vim
+301.676  000.162  000.162: sourcing /Users/domi91c/.vim/bundle/syntastic/plugin/syntastic/notifiers.vim
+300.229  000.185  000.185: sourcing /Users/domi91c/.vim/bundle/syntastic/plugin/syntastic/cursor.vim
+045.950  000.191  000.191: sourcing /Users/domi91c/.vim/Vundle.vim/autoload/vundle/config.vim
+045.659  000.192  000.192: sourcing /Users/domi91c/.vim/Vundle.vim/autoload/vundle.vim
+323.219  000.194  000.194: sourcing /Applications/MacVim.app/Contents/Resources/vim/runtime/plugin/tohtml.vim
+200.525  000.202  000.202: sourcing /Users/domi91c/dotmatrix/vim/mappings.vim
+067.704  000.206  000.206: sourcing /Applications/MacVim.app/Contents/Resources/vim/runtime/syntax/syncolor.vim
+044.844  000.207  000.207: sourcing /Applications/MacVim.app/Contents/Resources/vim/runtime/syntax/syncolor.vim
+302.723  000.210  000.210: sourcing /Users/domi91c/.vim/bundle/syntastic/plugin/syntastic/signs.vim
+204.941  000.219: sourcing vimrc file(s)
+314.351  000.225  000.225: sourcing /Users/domi91c/.vim/bundle/ultisnips/autoload/UltiSnips/map_keys.vim
+301.341  000.238  000.238: sourcing /Users/domi91c/.vim/bundle/syntastic/plugin/syntastic/modemap.vim
+205.846  000.244  000.244: sourcing /Users/domi91c/.vim/bundle/ctrlp.vim/autoload/ctrlp/mrufiles.vim
+324.895  000.244: loading packages
+067.034  000.245  000.245: sourcing /Applications/MacVim.app/Contents/Resources/vim/runtime/syntax/syncolor.vim
+306.009  000.254  000.254: sourcing /Users/domi91c/.vim/bundle/vim-quickrun/plugin/quickrun.vim
+210.585  000.255  000.255: sourcing /Users/domi91c/.vim/bundle/closetag.vim/plugin/closetag.vim
+043.850  000.274  000.274: sourcing /Applications/MacVim.app/Contents/Resources/vim/runtime/syntax/syncolor.vim
+338.220  000.277: VimEnter autocommands
+000.395  000.280: locale set
+044.521  000.287  000.287: sourcing /Applications/MacVim.app/Contents/Resources/vim/runtime/syntax/nosyntax.vim
+325.825  000.297  000.297: sourcing /Users/domi91c/.vim/bundle/ultisnips/after/plugin/UltiSnips_after.vim
+210.190  000.326  000.326: sourcing /Users/domi91c/.vim/bundle/vim-tmux-navigator/plugin/tmux_navigator.vim
+320.887  000.346  000.346: sourcing /Applications/MacVim.app/Contents/Resources/vim/runtime/plugin/matchparen.vim
+299.993  000.367  000.367: sourcing /Users/domi91c/.vim/bundle/syntastic/plugin/syntastic/checker.vim
+306.564  000.369  000.369: sourcing /Users/domi91c/.vim/bundle/vim-commentary/plugin/commentary.vim
+044.946  000.372  000.165: sourcing /Applications/MacVim.app/Contents/Resources/vim/runtime/syntax/synload.vim
+322.947  000.397  000.397: sourcing /Applications/MacVim.app/Contents/Resources/vim/runtime/plugin/tarPlugin.vim
+127.118  000.408  000.408: sourcing /Applications/MacVim.app/Contents/Resources/vim/runtime/syntax/syncolor.vim
+009.647  000.410: Termcap init
+000.856  000.434: inits 1
+324.286  000.440  000.440: sourcing /Applications/MacVim.app/Contents/Resources/vim/runtime/plugin/zipPlugin.vim
+315.534  000.442  000.442: sourcing /Users/domi91c/.vim/bundle/vim-autoformat/plugin/autoformat.vim
+043.960  000.448  000.174: sourcing /Applications/MacVim.app/Contents/Resources/vim/runtime/syntax/synload.vim
+323.747  000.457  000.457: sourcing /Applications/MacVim.app/Contents/Resources/vim/runtime/plugin/vimballPlugin.vim
+336.031  000.464  000.464: sourcing /Users/domi91c/.vim/bundle/syntastic/autoload/syntastic/log.vim
+126.082  000.472  000.472: sourcing /Applications/MacVim.app/Contents/Resources/vim/runtime/syntax/syncolor.vim
+320.406  000.479  000.479: sourcing /Applications/MacVim.app/Contents/Resources/vim/runtime/plugin/logiPat.vim
+301.038  000.548  000.548: sourcing /Users/domi91c/.vim/bundle/syntastic/plugin/syntastic/loclist.vim
+043.993  000.549  000.101: sourcing /Applications/MacVim.app/Contents/Resources/vim/runtime/syntax/syntax.vim
+318.299  000.593  000.593: sourcing /Users/domi91c/.vim/bundle/vim-rsi/plugin/rsi.vim
+319.866  000.604  000.604: sourcing /Applications/MacVim.app/Contents/Resources/vim/runtime/plugin/gzip.vim
+307.445  000.698  000.698: sourcing /Users/domi91c/.vim/bundle/vim-endwise/plugin/endwise.vim
+206.119  000.709  000.465: sourcing /Users/domi91c/.vim/bundle/ctrlp.vim/plugin/ctrlp.vim
+302.451  000.717  000.717: sourcing /Users/domi91c/.vim/bundle/syntastic/plugin/syntastic/registry.vim
+044.977  000.797  000.138: sourcing /Applications/MacVim.app/Contents/Resources/vim/runtime/syntax/syntax.vim
+211.641  000.801  000.801: sourcing /Users/domi91c/.vim/bundle/auto-pairs/plugin/auto-pairs.vim
+326.043  000.851: loading after plugins
+309.720  000.855  000.855: sourcing /Users/domi91c/.vim/bundle/vim-vinegar/plugin/vinegar.vim
+336.114  000.996: opening buffers
+207.304  001.031  001.031: sourcing /Users/domi91c/.vim/bundle/tagbar/plugin/tagbar.vim
+308.670  001.036  001.036: sourcing /Users/domi91c/.vim/bundle/vim-surround/plugin/surround.vim
+204.363  001.130  001.130: sourcing /Applications/MacVim.app/Contents/Resources/vim/runtime/pack/dist/opt/matchit/plugin/matchit.vim
+215.885  001.172  001.172: sourcing /Users/domi91c/.vim/bundle/syntastic/autoload/syntastic/util.vim
+322.184  001.179  001.179: sourcing /Applications/MacVim.app/Contents/Resources/vim/runtime/plugin/netrwPlugin.vim
+015.721  001.292  001.292: sourcing $VIM/vimrc
+045.348  001.315  000.477: sourcing /Users/domi91c/dotmatrix/vim/basic.vim
+317.088  001.497  001.497: sourcing /Users/domi91c/.vim/bundle/vim-autoformat/plugin/defaults.vim
+339.965  001.738: first screen update
+337.932  001.818: BufEnter autocommands
+204.555  001.828  000.698: sourcing /Applications/MacVim.app/Contents/Resources/vim/runtime/macros/matchit.vim
+209.697  002.266  002.266: sourcing /Users/domi91c/.vim/bundle/emmet-vim/plugin/emmet.vim
+009.237  002.967: shell init
+014.290  004.595: init highlight
+314.557  004.595  004.370: sourcing /Users/domi91c/.vim/bundle/ultisnips/plugin/UltiSnips.vim
+050.563  005.182  004.799: sourcing /Users/domi91c/dotmatrix/vim/plugins.vim
+006.270  005.407: expanding arguments
+324.651  007.268: loading plugins
+334.548  008.492: reading viminfo
+043.121  026.865  026.865: sourcing /Applications/MacVim.app/Contents/Resources/vim/runtime/filetype.vim
+122.760  070.667  070.216: sourcing /Users/domi91c/.vim/bundle/papercolor-theme/colors/PaperColor.vim
+200.201  077.294  076.414: sourcing /Users/domi91c/.vim/bundle/papercolor-theme/colors/PaperColor.vim
+305.526  091.869  087.862: sourcing /Users/domi91c/.vim/bundle/syntastic/plugin/syntastic.vim
+200.273  149.561  001.600: sourcing /Users/domi91c/dotmatrix/vim/appearance.vim
+204.933  189.140  003.475: sourcing $HOME/.vimrc

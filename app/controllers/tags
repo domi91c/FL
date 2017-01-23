@@ -1,0 +1,30 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	/34ff9d4/
+Admin	admin/application_controller.rb	/^module Admin$/;"	m
+Admin	admin/users_controller.rb	/^module Admin$/;"	m
+ApplicationController	admin/application_controller.rb	/^  class ApplicationController < Administrate::ApplicationController$/;"	c	module:Admin
+ApplicationController	application_controller.rb	/^class ApplicationController < ActionController::Base$/;"	c
+StoriesController	stories_controller.rb	/^class StoriesController < ApplicationController$/;"	c
+UsersController	admin/users_controller.rb	/^  class UsersController < Admin::ApplicationController$/;"	c	module:Admin
+UsersController	users_controller.rb	/^class UsersController < ApplicationController$/;"	c
+VisitorsController	visitors_controller.rb	/^class VisitorsController < ApplicationController$/;"	c
+authenticate_admin	admin/application_controller.rb	/^    def authenticate_admin$/;"	f	class:Admin.ApplicationController
+configure_permitted_parameters	application_controller.rb	/^  def configure_permitted_parameters$/;"	f	class:ApplicationController
+create	stories_controller.rb	/^  def create$/;"	f	class:StoriesController
+destroy	stories_controller.rb	/^  def destroy$/;"	f	class:StoriesController
+destroy	users_controller.rb	/^  def destroy$/;"	f	class:UsersController
+edit	stories_controller.rb	/^  def edit$/;"	f	class:StoriesController
+index	stories_controller.rb	/^  def index$/;"	f	class:StoriesController
+index	users_controller.rb	/^  def index$/;"	f	class:UsersController
+new	stories_controller.rb	/^  def new$/;"	f	class:StoriesController
+secure_params	users_controller.rb	/^  def secure_params$/;"	f	class:UsersController
+set_story	stories_controller.rb	/^    def set_story$/;"	f	class:StoriesController
+show	stories_controller.rb	/^  def show$/;"	f	class:StoriesController
+show	users_controller.rb	/^  def show$/;"	f	class:UsersController
+story_params	stories_controller.rb	/^    def story_params$/;"	f	class:StoriesController
+update	stories_controller.rb	/^  def update$/;"	f	class:StoriesController
+update	users_controller.rb	/^  def update$/;"	f	class:UsersController

@@ -16,6 +16,7 @@ group :development, :test do
   gem 'byebug', platform: :mri
 end
 group :development do
+  gem 'binding_of_caller'
   gem 'web-console', '>= 3.3.0'
   gem 'listen', '~> 3.0.5'
   gem 'spring'
@@ -61,6 +62,10 @@ group :test do
   gem 'selenium-webdriver'
 end
 
-
 gem 'simple_form'
-gem 'rename'
+
+
+
+
+gem 'quill-rails5', github: 'paul-at/quill-rails5'
+

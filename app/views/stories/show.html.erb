@@ -1,23 +1,16 @@
 <p id="notice"><%= notice %></p>
 
 <p>
-  <strong>Title:</strong>
   <%= @story.title %>
 </p>
 
-<p>
-  <strong>Summary:</strong>
-  <%= @story.summary %>
-</p>
+
+
+<%= @story.genre %>
+
 
 <p>
-  <strong>Genre:</strong>
-  <%= @story.genre %>
-</p>
-
-<p>
-  <strong>Body:</strong>
-  <%= @story.body %>
+  <%= @story.body.html_safe %>
 </p>
 
 <p>
