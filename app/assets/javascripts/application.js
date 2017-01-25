@@ -19,3 +19,4 @@
 
 
 
+var editor = new MediumEditor('#story_body');
