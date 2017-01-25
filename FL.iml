@@ -74,6 +74,7 @@
     <orderEntry type="library" scope="PROVIDED" name="guard-livereload (v2.5.2, RVM: ruby-2.4.0 [folklit]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="guard-rails (v0.8.0, RVM: ruby-2.4.0 [folklit]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="guard-rspec (v4.7.3, RVM: ruby-2.4.0 [folklit]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="guard-zeus (v2.0.1, RVM: ruby-2.4.0 [folklit]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="high_voltage (v3.0.0, RVM: ruby-2.4.0 [folklit]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="http_parser.rb (v0.6.0, RVM: ruby-2.4.0 [folklit]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="hub (v1.12.4, RVM: ruby-2.4.0 [folklit]) [gem]" level="application" />
@@ -162,6 +163,7 @@
     <orderEntry type="library" scope="PROVIDED" name="websocket-driver (v0.6.4, RVM: ruby-2.4.0 [folklit]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="websocket-extensions (v0.1.2, RVM: ruby-2.4.0 [folklit]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="xpath (v2.0.0, RVM: ruby-2.4.0 [folklit]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="zeus (v0.15.12, RVM: ruby-2.4.0 [folklit]) [gem]" level="application" />
   </component>
   <component name="RModuleSettingsStorage">
     <LOAD_PATH number="0" />

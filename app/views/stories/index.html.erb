@@ -8,10 +8,10 @@
           <h4 class="card-title"><%= link_to s.title, story_path(s), style: 'color: #373a3c' %></h4>
           <h6 class="card-subtitle mb-2 text-muted"><%= s.body.truncate(100) %></h6>
           <div class="story-links">
-            <%= link_to 'Edit', edit_story_path(s) %>
+            <%= link_to 'Edit', edit_story_path(s), data: {turbolinks: false} %>
             |
             <%= link_to 'Preview', edit_story_path(s) %></div>
-      </div>
+        </div>
       </div>
   <% end %>
   </tbody>

@@ -38,6 +38,7 @@ group :development do
   gem 'guard-rails'
   gem 'guard-rspec'
   gem 'guard-livereload'
+  gem 'guard-zeus'
   gem 'rack-livereload'
   gem 'meta_request'
   gem 'hub', :require=>nil
