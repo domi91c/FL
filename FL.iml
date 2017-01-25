@@ -164,6 +164,7 @@
     <orderEntry type="library" scope="PROVIDED" name="websocket-extensions (v0.1.2, RVM: ruby-2.4.0 [folklit]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="xpath (v2.0.0, RVM: ruby-2.4.0 [folklit]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="zeus (v0.15.12, RVM: ruby-2.4.0 [folklit]) [gem]" level="application" />
+    <orderEntry type="library" name="medium-editor" level="application" />
   </component>
   <component name="RModuleSettingsStorage">
     <LOAD_PATH number="0" />

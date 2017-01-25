@@ -13,4 +13,9 @@
  *= require_tree .
  *= require_self
  */
+@import "medium-editor";
+// TODO: hide simple_form error_notifications
 
+#notice {
+  display: none
+}

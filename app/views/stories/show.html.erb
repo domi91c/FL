@@ -1,8 +1,8 @@
 <p id="notice"><%= notice %></p>
 
-<p>
-  <%= @story.title %>
-</p>
+<h2  class=" text-center"><%= @story.title %></h2>
+<p class="text-center"><%= link_to "@#{@story.user.username }", user_path(@story.user) %></p>
+<hr>
 
 
 
@@ -12,11 +12,5 @@
 <p>
   <%= @story.body.html_safe %>
 </p>
-
-<p>
-  <strong>User:</strong>
-  <%= @story.user_id %>
-</p>
-
 <%= link_to 'Edit', edit_story_path(@story) %> |
 <%= link_to 'Back', stories_path %>

@@ -1,9 +1,28 @@
-<%= quill({modules: []}, style: 'height:35em') do %>
-    <%= @story.body.html_safe %>
-<% end %>
+<style>
 
-<%= simple_form_for @story do |f| %>
-    <%= quill_field f, :body %>
+  .medium-editor-element {
+    border: none;
+    box-shadow: none;
+  }
+
+</style>
+<div class="col-md-10 push-1">
+<h2  class=" text-center"><%= @story.title %></h2>
+  <h6  class=" text-center">Chapter 2</h5>
+
+  <hr>
+<%= simple_form_for @story, error: false do |f| %>
+    <%= f.input :body, class: 'editable', label: false %>
+      <br>
     <%= f.submit 'Submit', class: 'btn btn-large btn-primary mt-2' %>
 <% end %>
+
+  <%= link_to 'Show', @story %> |
+  <%= link_to 'Back', stories_path %>
+</div>
+
+
+<script>var editor = new MediumEditor('#story_body');</script>
+
+
 
